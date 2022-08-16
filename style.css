@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #eee;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 80px 40px 80px;
+  width: calc(100% - 160px);
+  height: 60px;
+}
+
+.nav img {
+  width: 250px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
